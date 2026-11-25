@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "(^bootstrap\.php$|\.(md|sql|json|zip|log)$|^\.gitignore$)">
+    Require all denied
+</FilesMatch>
